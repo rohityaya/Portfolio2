@@ -1,0 +1,25 @@
+.img{
+    background-image: url(image/home-bg.jpg);
+    background-size: cover;
+    
+}
+.animation{
+    animation: typing 6s linear infinite forwards;
+}
+@keyframes typing{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 30%;
+    }
+}
+.ski{
+    box-shadow: 8px 8px 0px #000000;
+    transform: skew(-4deg, -9deg);
+    transition: .3s linear;
+}
+.ski:hover{
+    transform: skew(0deg,0deg);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
